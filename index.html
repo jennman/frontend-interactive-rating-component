@@ -31,7 +31,7 @@
     <li><button class="btn">5</button></li>
   </ul>
 
-  <button class="btn-submit">Submit</button>
+  <button class="btn-submit" id="submit">Submit</button>
 
  </div>
 
@@ -42,7 +42,11 @@
  <div class="thank-you hidden">
   <img src="./images/illustration-thank-you.svg" alt="thank-you-image"/>
 
-  <p class="gray">  You selected <!-- Add rating here --> out of 5</p>
+  <p class="gray">  
+    You selected 
+    <span id="rating">5</span>
+    out of 5
+  </p>
     
   <h2>Thank you!</h2>
 
@@ -50,7 +54,7 @@
     don’t hesitate to get in touch!
   </p>
 
-  <button class="btn-submit">Rate Again</button>
+  <button class="btn-submit" id="rate-again">Rate Again</button>
 
  </div>
   <!-- Thank you state end -->
